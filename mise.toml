@@ -1,0 +1,3 @@
+[tools]
+gh = "latest"
+python = "3.14"
