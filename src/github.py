@@ -4,7 +4,45 @@ Python utilities for interacting with GitHub's API via the `gh` CLI.
 import subprocess
 import json
 from typing import Optional
-from models import ProjectMetadata
+from models import ProjectMetadata, Category, Priority
+
+def create_custom_field(project_number: int, name: str, data_type: str, options: list[str] = None, owner: str = "@me", dry_run: bool = False) -> Optional[dict]:
+    """
+    Creates a custom field in a GitHub Project.
+    """
+    cmd = [
+        "gh", "project", "field-create", str(project_number),
+        "--owner", owner,
+        "--name", name,
+        "--data-type", data_type,
+        "--format", "json"
+    ]
+    
+    if options:
+        cmd.extend(["--single-select-options", ",".join(options)])
+        
+    if dry_run:
+        print(f"[Dry Run] Would execute: {' '.join(cmd)}")
+        return None
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+        return json.loads(result.stdout)
+    except subprocess.CalledProcessError as e:
+        print(f"Error creating field '{name}': {e.stderr}")
+        raise e
+
+def create_project_fields(project_number: int, owner: str = "@me", dry_run: bool = False):
+    """
+    Creates standard custom fields (Category, Priority) for the project.
+    """
+    # Category Field
+    category_options = [c.value for c in Category]
+    create_custom_field(project_number, "Category", "SINGLE_SELECT", category_options, owner, dry_run)
+    
+    # Priority Field
+    priority_options = [p.value for p in Priority]
+    create_custom_field(project_number, "Priority", "SINGLE_SELECT", priority_options, owner, dry_run)
 
 def create_project(title: str, owner: str = "@me", dry_run: bool = False) -> Optional[ProjectMetadata]:
     """
