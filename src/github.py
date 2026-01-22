@@ -4,7 +4,7 @@ Python utilities for interacting with GitHub's API via the `gh` CLI.
 import subprocess
 import json
 from typing import Optional
-from models import ProjectMetadata, Category, Priority
+from models import ProjectMetadata, Category, Priority, Phase
 
 def create_custom_field(project_number: int, name: str, data_type: str, options: list[str] = None, owner: str = "@me", dry_run: bool = False) -> Optional[dict]:
     """
@@ -34,7 +34,7 @@ def create_custom_field(project_number: int, name: str, data_type: str, options:
 
 def create_project_fields(project_number: int, owner: str = "@me", dry_run: bool = False):
     """
-    Creates standard custom fields (Category, Priority) for the project.
+    Creates standard custom fields (Category, Priority, Phase) for the project.
     """
     # Category Field
     category_options = [c.value for c in Category]
@@ -43,6 +43,10 @@ def create_project_fields(project_number: int, owner: str = "@me", dry_run: bool
     # Priority Field
     priority_options = [p.value for p in Priority]
     create_custom_field(project_number, "Priority", "SINGLE_SELECT", priority_options, owner, dry_run)
+
+    # Phase Field
+    phase_options = [p.value for p in Phase]
+    create_custom_field(project_number, "Phase", "SINGLE_SELECT", phase_options, owner, dry_run)
 
 def create_project(title: str, owner: str = "@me", dry_run: bool = False) -> Optional[ProjectMetadata]:
     """
