@@ -1,6 +1,7 @@
-from pydantic import BaseModel, Field, ConfigDict
-from typing import Optional, Mapping, Union
 from enum import Enum
+from typing import Mapping, Optional, Union
+
+from pydantic import BaseModel, ConfigDict, Field
 
 # =============================================
 # CLI-Internal Enums (for filtering/logic only)
@@ -91,7 +92,6 @@ class Task(BaseModel):
     category: Category = Field(..., description="GitHub custom field: Category")
     priority: Priority = Field(..., description="GitHub custom field: Priority")
     phase: Phase = Field(..., description="GitHub custom field: Phase")
-    time_estimate: str = Field(..., description="GitHub custom field: Time Estimate")
 
     def applies_to_release_type(self, release_type: ReleaseType) -> bool:
         """Check if this task should be included for given release type"""
@@ -162,9 +162,6 @@ class GitHubProjectFields(BaseModel):
                 "Ongoing Maintenance",
             ],
         }
-    )
-    time_estimate: Mapping[str, Union[str, list[str]]] = Field(
-        default={"name": "Time Estimate", "data_type": "TEXT"}
     )
 
 
