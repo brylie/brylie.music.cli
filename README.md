@@ -1,4 +1,3 @@
-
 # Brylie's Music CLI
 
 CLI for Brylie's music projects.
@@ -6,6 +5,14 @@ CLI for Brylie's music projects.
 ## Usage
 
 All commands should be prefixed with `uv` if you have not activated the Python environment.
+
+### Auth with GitHub
+
+Add the required GitHub Projects scope to your authentication:
+
+```sh
+gh auth refresh -s project
+```
 
 ### Run the CLI wizard
 
