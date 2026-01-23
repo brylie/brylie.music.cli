@@ -64,7 +64,12 @@ def create_project_cmd(dry_run):
                 raise click.ClickException("Some tasks failed to create.")
 
     except Exception as e:
+        if isinstance(e, click.ClickException):
+            raise
         click.echo(f"Failed to create project: {e}", err=True)
+        import sys
+
+        sys.exit(1)
 
 
 @cli.command()
