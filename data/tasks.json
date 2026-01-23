@@ -1,1609 +1,1609 @@
 {
-    "version": "1.0",
-    "tasks": [
-        {
-            "id": "infra-001",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Set up Spotify for Artists account",
-            "body": "Required for playlist pitching",
-            "category": "Infrastructure",
-            "priority": "Critical",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-002",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Set up an Apple Music for Artists account",
-            "body": "",
-            "category": "Infrastructure",
-            "priority": "Critical",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-003",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Claim the YouTube Music artist profile",
-            "body": "Depends on YouTube channel existing",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-004",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Set up the Amuse.io distribution account",
-            "body": "Your primary distributor",
-            "category": "Infrastructure",
-            "priority": "Critical",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-005",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Configure brylie music website",
-            "body": "Central hub for all releases",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-006",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Set up a Bandcamp artist profile",
-            "body": "Include CC BY 4.0 licensing statement",
-            "category": "Infrastructure",
-            "priority": "Critical",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-007",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Register with Teosto",
-            "body": "STIM equivalent in Finland. Required for royalty collection.",
-            "category": "Infrastructure",
-            "priority": "Critical",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-008",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Register with Gramex (Finland)",
-            "body": "Neighboring rights collection",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-009",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Set up an Instagram artist profile",
-            "body": "Primary social platform",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-010",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Set up a Facebook artist page",
-            "body": "Cross-posting from Instagram",
-            "category": "Infrastructure",
-            "priority": "Medium",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-011",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Set up Bluesky profile",
-            "body": "Experimental platform",
-            "category": "Infrastructure",
-            "priority": "Low",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-012",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Set up email capture on the website",
-            "body": "Future-proofing, not urgent until 50+ subscribers",
-            "category": "Infrastructure",
-            "priority": "Medium",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-013",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Create a SoundCloud account for previews",
-            "body": "Useful for pre-release sharing",
-            "category": "Infrastructure",
-            "priority": "Medium",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-014",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Create master licensing target list",
-            "body": "30+ opportunities. Research wellness podcasts, YouTube channels, and game devs. Update quarterly.",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-015",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Research Finnish grant opportunities",
-            "body": "Taike, KONE. Annual or bi-annual activity.",
-            "category": "Infrastructure",
-            "priority": "Medium",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-016",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Create a content pillar framework",
-            "body": "Guides all content creation",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "infra-017",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Set up production workflow templates",
-            "body": "Piano workflow + Electronic workflow",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Phase 0: Foundation",
-        },
-        {
-            "id": "plan-001",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Create project brief for this release",
-            "body": "Album name, track count, release date, artistic goals, target audience",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 1: Pre-Production",
-        },
-        {
-            "id": "plan-002",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Copy the master roadmap into the release-specific project",
-            "body": "Customize for this release",
-            "category": "Infrastructure",
-            "priority": "Critical",
-            "phase": "Phase 1: Pre-Production",
-        },
-        {
-            "id": "plan-003",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Set release date",
-            "body": "Minimum 4 weeks out for playlist pitching. Consider seasonal timing.",
-            "category": "Marketing",
-            "priority": "Critical",
-            "phase": "Phase 1: Pre-Production",
-        },
-        {
-            "id": "plan-004",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Define success metrics for this release",
-            "body": "Streams goal, playlist adds, revenue target, licensing placements",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 1: Pre-Production",
-        },
-        {
-            "id": "plan-005",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Define revenue strategy for this release",
-            "body": "Which income streams are you activating? Bandcamp? Licensing targets?",
-            "category": "Revenue",
-            "priority": "High",
-            "phase": "Phase 1: Pre-Production",
-        },
-        {
-            "id": "plan-006",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "infra-014"
-            ],
-            "title": "Create licensing pitch list",
-            "body": "5-10 specific targets for THIS release",
-            "category": "Revenue",
-            "priority": "High",
-            "phase": "Phase 1: Pre-Production",
-        },
-        {
-            "id": "prod-001",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Record/produce all tracks",
-            "body": "Follow Piano Production Checklist or Electronic Production Checklist",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 2: Production",
-        },
-        {
-            "id": "prod-002",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "prod-001"
-            ],
-            "title": "Mix all tracks",
-            "body": "Reference your production workflow",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 2: Production",
-        },
-        {
-            "id": "prod-003",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "prod-002"
-            ],
-            "title": "Master all tracks",
-            "body": "Reference your production workflow",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 2: Production",
-        },
-        {
-            "id": "prod-004",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "prod-003"
-            ],
-            "title": "Loudness check",
-            "body": "LUFS targets: -14 to -16 LUFS. Use Youlean or similar.",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 2: Production",
-        },
-        {
-            "id": "prod-005",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "prod-003"
-            ],
-            "title": "Final listening test across devices",
-            "body": "Phone, laptop, headphones, monitors",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 2: Production",
-        },
-        {
-            "id": "prod-006",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "prod-005"
-            ],
-            "title": "Export final masters",
-            "body": "WAV, 24-bit. Naming convention: ArtistName_TrackTitle_Master_v1.wav",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 2: Production",
-        },
-        {
-            "id": "prod-007",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "prod-006"
-            ],
-            "title": "Create a backup of all project files",
-            "body": "External drive + cloud storage",
-            "category": "Production",
-            "priority": "High",
-            "phase": "Phase 2: Production",
-        },
-        {
-            "id": "visual-001",
-            "release_types": [
-                "Album",
-                "EP"
-            ],
-            "depends_on": [
-                "prod-006"
-            ],
-            "title": "Identify 2-3 key tracks to promote",
-            "body": "For albums - don't promote every track equally",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 3: Visual Assets",
-        },
-        {
-            "id": "visual-002",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Create or commission album artwork",
-            "body": "3000x3000px minimum, square format",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 3: Visual Assets",
-        },
-        {
-            "id": "visual-003",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "visual-002",
-                "prod-006"
-            ],
-            "title": "Create simple YouTube visualization",
-            "body": "Static artwork + waveform acceptable",
-            "category": "Production",
-            "priority": "High",
-            "phase": "Phase 3: Visual Assets",
-        },
-        {
-            "id": "visual-004",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "visual-002"
-            ],
-            "title": "Create Spotify Canvas (optional)",
-            "body": "15-second vertical loop, 1080x1920px",
-            "category": "Content",
-            "priority": "Low",
-            "phase": "Phase 3: Visual Assets",
-        },
-        {
-            "id": "visual-005",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Take or gather promo photos (optional)",
-            "body": "Only if naturally available (e.g., performance photos)",
-            "category": "Content",
-            "priority": "Low",
-            "phase": "Phase 3: Visual Assets",
-        },
-        {
-            "id": "visual-006",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "visual-002"
-            ],
-            "title": "Create social media announcement graphics",
-            "body": "Instagram square (1080x1080) + Story (1080x1920)",
-            "category": "Content",
-            "priority": "Medium",
-            "phase": "Phase 3: Visual Assets",
-        },
-        {
-            "id": "dist-001",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "prod-006",
-                "visual-002"
-            ],
-            "title": "Complete metadata in Amuse.io",
-            "body": "Track titles, album name, genre tags, release date",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 4: Distribution Setup",
-        },
-        {
-            "id": "dist-002",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Write album description with CC BY 4.0 statement",
-            "body": "Explicitly state Creative Commons licensing",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 4: Distribution Setup",
-        },
-        {
-            "id": "dist-003",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "dist-001"
-            ],
-            "title": "Generate ISRC codes",
-            "body": "Via Amuse. Automatic.",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 4: Distribution Setup",
-        },
-        {
-            "id": "dist-004",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "dist-001",
-                "prod-006"
-            ],
-            "title": "Upload masters to Amuse.io",
-            "body": "",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 4: Distribution Setup",
-        },
-        {
-            "id": "dist-005",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "dist-001",
-                "visual-002"
-            ],
-            "title": "Upload artwork to Amuse.io",
-            "body": "",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 4: Distribution Setup",
-        },
-        {
-            "id": "dist-006",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "dist-001"
-            ],
-            "title": "Set release date (4+ weeks out)",
-            "body": "Allows time for playlist pitching",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 4: Distribution Setup",
-        },
-        {
-            "id": "dist-007",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "dist-004",
-                "dist-005"
-            ],
-            "title": "Generate pre-save link via Amuse.io",
-            "body": "Use this in all pre-release promotion",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 4: Distribution Setup",
-        },
-        {
-            "id": "dist-008",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "dist-004"
-            ],
-            "title": "Verify distribution to all platforms",
-            "body": "Check Spotify, Apple Music, YouTube Music. 24-48 hours after upload.",
-            "category": "Production",
-            "priority": "Critical",
-            "phase": "Phase 4: Distribution Setup",
-        },
-        {
-            "id": "profile-001",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "infra-001"
-            ],
-            "title": "Update Spotify artist bio",
-            "body": "Mention healing/meditation focus, CC licensing",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 5: Profile Setup",
-        },
-        {
-            "id": "profile-002",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "infra-002"
-            ],
-            "title": "Update Apple Music artist bio",
-            "body": "",
-            "category": "Marketing",
-            "priority": "Medium",
-            "phase": "Phase 5: Profile Setup",
-        },
-        {
-            "id": "profile-003",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "infra-003"
-            ],
-            "title": "Update YouTube About section",
-            "body": "Include brylie.music link",
-            "category": "Marketing",
-            "priority": "Medium",
-            "phase": "Phase 5: Profile Setup",
-        },
-        {
-            "id": "profile-004",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "infra-001"
-            ],
-            "title": "Create/update artist playlists on Spotify",
-            "body": "Influences playlist, Complete Works playlist",
-            "category": "Marketing",
-            "priority": "Medium",
-            "phase": "Phase 5: Profile Setup",
-        },
-        {
-            "id": "profile-005",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "dist-006",
-                "dist-007"
-            ],
-            "title": "Update brylie.music homepage",
-            "body": "Feature upcoming release with pre-save link",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 5: Profile Setup",
-        },
-        {
-            "id": "profile-006",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "prod-006",
-                "infra-006"
-            ],
-            "title": "Upload to Bandcamp",
-            "body": "Set name-your-price with suggested €3-5",
-            "category": "Revenue",
-            "priority": "Critical",
-            "phase": "Phase 5: Profile Setup",
-        },
-        {
-            "id": "content-001",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Draft artist bio updates (if needed)",
-            "body": "Use Social Media Specialist skill",
-            "category": "Content",
-            "priority": "Medium",
-            "phase": "Phase 6: Content Creation",
-        },
-        {
-            "id": "content-002",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "visual-002"
-            ],
-            "title": "Generate 5-7 social media posts for release",
-            "body": "Batch create all posts",
-            "category": "Content",
-            "priority": "High",
-            "phase": "Phase 6: Content Creation",
-        },
-        {
-            "id": "content-003",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Write licensing pitch email templates",
-            "body": "Personalized but reusable framework",
-            "category": "Content",
-            "priority": "High",
-            "phase": "Phase 6: Content Creation",
-        },
-        {
-            "id": "content-004",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Create 3-5 short clips from recent livestream",
-            "body": "For Reels/Shorts - repurposing existing content",
-            "category": "Content",
-            "priority": "Medium",
-            "phase": "Phase 6: Content Creation",
-        },
-        {
-            "id": "content-005",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Prepare behind the scenes content",
-            "body": "Studio photos, process insights",
-            "category": "Content",
-            "priority": "Low",
-            "phase": "Phase 6: Content Creation",
-        },
-        {
-            "id": "content-006",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Draft playlist pitch copy (Spotify editorial)",
-            "body": "Submitted via Spotify for Artists",
-            "category": "Content",
-            "priority": "High",
-            "phase": "Phase 6: Content Creation",
-        },
-        {
-            "id": "campaign-001",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "dist-007",
-                "visual-006"
-            ],
-            "title": "Post announcement on Instagram with pre-save link",
-            "body": "",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-002",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "campaign-001"
-            ],
-            "title": "Post announcement on Facebook",
-            "body": "Cross-post or adapt from Instagram",
-            "category": "Marketing",
-            "priority": "Medium",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-003",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Post announcement on Bluesky",
-            "body": "",
-            "category": "Marketing",
-            "priority": "Low",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-004",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Update YouTube community tab",
-            "body": "",
-            "category": "Marketing",
-            "priority": "Medium",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-005",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Update brylie.music with release info",
-            "body": "May already be done in Phase 5",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-006",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Mention upcoming release at next eldercare performance",
-            "body": "Keep it organic, not promotional",
-            "category": "Marketing",
-            "priority": "Low",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-007",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "content-006"
-            ],
-            "title": "Pitch to Spotify Editorial Playlists",
-            "body": "At least 1 week before release. Via Spotify for Artists dashboard.",
-            "category": "Marketing",
-            "priority": "Critical",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-008",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Pitch to Apple Music Editorial",
-            "body": "Via Apple Music for Artists",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-009",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Research independent ambient/piano playlists",
-            "body": "10-15 targets. Use Licensing Outreach skill or Spotify search.",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-010",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "campaign-009"
-            ],
-            "title": "Pitch to independent playlists",
-            "body": "Personal messages, not templates",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-011",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Pitch to wellness/meditation playlists",
-            "body": "Your music is perfect for this niche",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-012",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "plan-006",
-                "content-003"
-            ],
-            "title": "Begin outreach to licensing targets",
-            "body": "Podcasters, YouTubers, wellness apps, game devs",
-            "category": "Revenue",
-            "priority": "High",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-013",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Research + pitch to Creative Commons-friendly curators",
-            "body": "Your licensing is an advantage here",
-            "category": "Revenue",
-            "priority": "Medium",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-014",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "content-005"
-            ],
-            "title": "Post behind-the-scenes content",
-            "body": "Studio photo, process insight",
-            "category": "Content",
-            "priority": "Medium",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-015",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "prod-006"
-            ],
-            "title": "Share snippet or preview track on Instagram/SoundCloud",
-            "body": "",
-            "category": "Content",
-            "priority": "Medium",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-016",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Optional: Instagram Story with countdown sticker",
-            "body": "",
-            "category": "Marketing",
-            "priority": "Low",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-017",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Optional: Livestream discussing upcoming release",
-            "body": "Announce briefly during the regular creative stream",
-            "category": "Content",
-            "priority": "Low",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-018",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "dist-007"
-            ],
-            "title": "Remind followers about pre-save (1 week before release)",
-            "body": "Instagram, Facebook, Bluesky",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "campaign-019",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Engage with 3-5 similar artists on Instagram",
-            "body": "Thoughtful comments, not self-promotion",
-            "category": "Relationships",
-            "priority": "Medium",
-            "phase": "Phase 7: Pre-Release Campaign",
-        },
-        {
-            "id": "release-001",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Post It's live! announcement on Instagram",
-            "body": "Include direct streaming links",
-            "category": "Marketing",
-            "priority": "Critical",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "release-002",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Post release announcement on Facebook",
-            "body": "",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "release-003",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Post release announcement on Bluesky",
-            "body": "",
-            "category": "Marketing",
-            "priority": "Low",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "release-004",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Update Spotify Artist Pick",
-            "body": "Feature new release in Spotify for Artists",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "release-005",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "visual-003"
-            ],
-            "title": "Upload full album video to YouTube",
-            "body": "Optimize title, description with CC BY 4.0 statement, tags",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "release-006",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Update brylie.music homepage",
-            "body": "Replace pre-save with streaming links",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "release-007",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "profile-006"
-            ],
-            "title": "Verify Bandcamp release is live",
-            "body": "",
-            "category": "Revenue",
-            "priority": "High",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "release-008",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Create artist playlist on Spotify featuring new release + influences",
-            "body": "Include Nils Frahm, Max Richter, your tracks",
-            "category": "Marketing",
-            "priority": "Medium",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "release-009",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Share thank you post celebrating release",
-            "body": "2-3 days after release",
-            "category": "Marketing",
-            "priority": "Medium",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "release-010",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Respond to ALL comments on release posts",
-            "body": "Personal responses, not 'thanks!'",
-            "category": "Relationships",
-            "priority": "High",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "release-011",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Optional: Instagram Story with Questions sticker",
-            "body": "'Ask me about the music'",
-            "category": "Relationships",
-            "priority": "Low",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "release-012",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Upload lyrics to Spotify (if applicable)",
-            "body": "",
-            "category": "Marketing",
-            "priority": "Low",
-            "phase": "Phase 8: Release Week",
-        },
-        {
-            "id": "post-001",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Continue pitching to independent playlists",
-            "body": "Now that track is live, some curators prefer this",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 9: Post-Release 1-4 Weeks",
-        },
-        {
-            "id": "post-002",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "campaign-012"
-            ],
-            "title": "Follow up with licensing targets who haven't responded",
-            "body": "Gentle follow-up, not pushy",
-            "category": "Revenue",
-            "priority": "High",
-            "phase": "Phase 9: Post-Release 1-4 Weeks",
-        },
-        {
-            "id": "post-003",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Thank playlist curators who added your music",
-            "body": "Personal messages, share their playlist on your Story",
-            "category": "Relationships",
-            "priority": "Critical",
-            "phase": "Phase 9: Post-Release 1-4 Weeks",
-        },
-        {
-            "id": "post-004",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Share any playlist additions on Instagram Story",
-            "body": "",
-            "category": "Marketing",
-            "priority": "Medium",
-            "phase": "Phase 9: Post-Release 1-4 Weeks",
-        },
-        {
-            "id": "post-005",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Check Spotify for Artists for engagement data",
-            "body": "Which tracks resonating? Where are listeners?",
-            "category": "Marketing",
-            "priority": "Medium",
-            "phase": "Phase 9: Post-Release 1-4 Weeks",
-        },
-        {
-            "id": "post-006",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Post about any milestones",
-            "body": "Playlist adds, stream count. Celebrate wins, even small ones.",
-            "category": "Marketing",
-            "priority": "Low",
-            "phase": "Phase 9: Post-Release 1-4 Weeks",
-        },
-        {
-            "id": "post-007",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Create making of or inspiration post",
-            "body": "Use production notes for content",
-            "category": "Content",
-            "priority": "Medium",
-            "phase": "Phase 9: Post-Release 1-4 Weeks",
-        },
-        {
-            "id": "post-008",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Share performance clips if you played tracks live",
-            "body": "Performed at eldercare or other venue",
-            "category": "Content",
-            "priority": "Low",
-            "phase": "Phase 9: Post-Release 1-4 Weeks",
-        },
-        {
-            "id": "post-009",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "content-004"
-            ],
-            "title": "Repurpose livestream clips into Reels/Shorts",
-            "body": "3-5 short clips from recent streams",
-            "category": "Content",
-            "priority": "Medium",
-            "phase": "Phase 9: Post-Release 1-4 Weeks",
-        },
-        {
-            "id": "post-010",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Optional: Livestream playing through album or discussing creation",
-            "body": "Creative time",
-            "category": "Content",
-            "priority": "Low",
-            "phase": "Phase 9: Post-Release 1-4 Weeks",
-        },
-        {
-            "id": "post-011",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Engage with other ambient/piano artists",
-            "body": "5-10 meaningful interactions. Thoughtful comments, not self-promotion.",
-            "category": "Relationships",
-            "priority": "Medium",
-            "phase": "Phase 9: Post-Release 1-4 Weeks",
-        },
-        {
-            "id": "post-012",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Continue responding to any new comments/messages",
-            "body": "",
-            "category": "Relationships",
-            "priority": "High",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-013",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Share listener feedback or testimonials",
-            "body": "If received",
-            "category": "Marketing",
-            "priority": "Low",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-014",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "post-002"
-            ],
-            "title": "Follow up with licensing targets (second follow-up)",
-            "body": "Only if they showed interest initially",
-            "category": "Revenue",
-            "priority": "Medium",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-015",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Pitch to additional niche playlists or opportunities",
-            "body": "",
-            "category": "Revenue",
-            "priority": "Medium",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-016",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Request Release Performance Report from Metrics Analyst",
-            "body": "Let Metrics Analyst skill compile the data",
-            "category": "Infrastructure",
-            "priority": "Critical",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-017",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Review streaming analytics",
-            "body": "Spotify, Apple, YouTube. Which tracks resonated? Geographic distribution?",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-018",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Document successful playlist additions",
-            "body": "Track which curators added you - nurture these relationships",
-            "category": "Relationships",
-            "priority": "High",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-019",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Document successful licensing placements (if any)",
-            "body": "",
-            "category": "Revenue",
-            "priority": "High",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-020",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Analyze which social posts got most engagement",
-            "body": "Do more of what worked",
-            "category": "Marketing",
-            "priority": "High",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-021",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Calculate total revenue from release",
-            "body": "Bandcamp sales + streaming estimates + licensing",
-            "category": "Revenue",
-            "priority": "High",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-022",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Document what worked vs what didn't",
-            "body": "This learning informs next release",
-            "category": "Infrastructure",
-            "priority": "Critical",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-023",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "post-022"
-            ],
-            "title": "Identify adjustments for next release",
-            "body": "What to do more of? Less of? Differently?",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-024",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Update master licensing target list",
-            "body": "Add successful contacts, remove non-responsive",
-            "category": "Infrastructure",
-            "priority": "Medium",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "post-025",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Celebrate progress and wins",
-            "body": "Reflect on growth, not just metrics",
-            "category": "Relationships",
-            "priority": "Critical",
-            "phase": "Phase 10: Post-Release 5-8 Weeks",
-        },
-        {
-            "id": "maint-001",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Review overall metrics (Monthly)",
-            "body": "Metrics Analyst monthly report. First week of each month.",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-002",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Engage with ambient music communities",
-            "body": "Reddit, etc. Thoughtful participation, not promotion.",
-            "category": "Relationships",
-            "priority": "Medium",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-003",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Maintain relationships with playlist curators",
-            "body": "Comment on their playlists, share updates",
-            "category": "Relationships",
-            "priority": "High",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-004",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Update website if needed",
-            "body": "",
-            "category": "Infrastructure",
-            "priority": "Low",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-005",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Comprehensive metrics review (Quarterly)",
-            "body": "What's working? Adjust strategy.",
-            "category": "Infrastructure",
-            "priority": "Critical",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-006",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Update master licensing target list (Quarterly)",
-            "body": "Research new opportunities",
-            "category": "Revenue",
-            "priority": "High",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-007",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Review and update artist bios across platforms",
-            "body": "",
-            "category": "Marketing",
-            "priority": "Medium",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-008",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Review content pillar strategy",
-            "body": "Still aligned with the mission?",
-            "category": "Content",
-            "priority": "Medium",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-009",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Reach out to 1-2 artists about potential collaboration",
-            "body": "",
-            "category": "Relationships",
-            "priority": "Medium",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-010",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Update GitHub Projects master roadmap",
-            "body": "Based on learnings from recent releases",
-            "category": "Infrastructure",
-            "priority": "Medium",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-011",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Research and apply to Finnish grants",
-            "body": "Taike, KONE. Application cycles vary.",
-            "category": "Revenue",
-            "priority": "Medium",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-012",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [],
-            "title": "Comprehensive year-in-review",
-            "body": "All metrics, revenue, growth, lessons learned",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-013",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "maint-012"
-            ],
-            "title": "Strategic planning for next year",
-            "body": "Release schedule, goals, new opportunities",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Ongoing Maintenance",
-        },
-        {
-            "id": "maint-014",
-            "release_types": [
-                "All"
-            ],
-            "depends_on": [
-                "maint-013"
-            ],
-            "title": "Update Goals & Success Metrics document",
-            "body": "Based on actual performance vs goals",
-            "category": "Infrastructure",
-            "priority": "High",
-            "phase": "Ongoing Maintenance",
-        }
-    ]
+  "version": "1.0",
+  "tasks": [
+    {
+      "id": "infra-001",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Set up Spotify for Artists account",
+      "body": "Required for playlist pitching",
+      "category": "Infrastructure",
+      "priority": "Critical",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-002",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Set up an Apple Music for Artists account",
+      "body": "",
+      "category": "Infrastructure",
+      "priority": "Critical",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-003",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Claim the YouTube Music artist profile",
+      "body": "Depends on YouTube channel existing",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-004",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Set up the Amuse.io distribution account",
+      "body": "Your primary distributor",
+      "category": "Infrastructure",
+      "priority": "Critical",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-005",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Configure brylie music website",
+      "body": "Central hub for all releases",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-006",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Set up a Bandcamp artist profile",
+      "body": "Include CC BY 4.0 licensing statement",
+      "category": "Infrastructure",
+      "priority": "Critical",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-007",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Register with Teosto",
+      "body": "STIM equivalent in Finland. Required for royalty collection.",
+      "category": "Infrastructure",
+      "priority": "Critical",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-008",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Register with Gramex (Finland)",
+      "body": "Neighboring rights collection",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-009",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Set up an Instagram artist profile",
+      "body": "Primary social platform",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-010",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Set up a Facebook artist page",
+      "body": "Cross-posting from Instagram",
+      "category": "Infrastructure",
+      "priority": "Medium",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-011",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Set up Bluesky profile",
+      "body": "Experimental platform",
+      "category": "Infrastructure",
+      "priority": "Low",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-012",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Set up email capture on the website",
+      "body": "Future-proofing, not urgent until 50+ subscribers",
+      "category": "Infrastructure",
+      "priority": "Medium",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-013",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Create a SoundCloud account for previews",
+      "body": "Useful for pre-release sharing",
+      "category": "Infrastructure",
+      "priority": "Medium",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-014",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Create master licensing target list",
+      "body": "30+ opportunities. Research wellness podcasts, YouTube channels, and game devs. Update quarterly.",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-015",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Research Finnish grant opportunities",
+      "body": "Taike, KONE. Annual or bi-annual activity.",
+      "category": "Infrastructure",
+      "priority": "Medium",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-016",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Create a content pillar framework",
+      "body": "Guides all content creation",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "infra-017",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Set up production workflow templates",
+      "body": "Piano workflow + Electronic workflow",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Phase 0: Foundation"
+    },
+    {
+      "id": "plan-001",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Create project brief for this release",
+      "body": "Album name, track count, release date, artistic goals, target audience",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 1: Pre-Production"
+    },
+    {
+      "id": "plan-002",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Copy the master roadmap into the release-specific project",
+      "body": "Customize for this release",
+      "category": "Infrastructure",
+      "priority": "Critical",
+      "phase": "Phase 1: Pre-Production"
+    },
+    {
+      "id": "plan-003",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Set release date",
+      "body": "Minimum 4 weeks out for playlist pitching. Consider seasonal timing.",
+      "category": "Marketing",
+      "priority": "Critical",
+      "phase": "Phase 1: Pre-Production"
+    },
+    {
+      "id": "plan-004",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Define success metrics for this release",
+      "body": "Streams goal, playlist adds, revenue target, licensing placements",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 1: Pre-Production"
+    },
+    {
+      "id": "plan-005",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Define revenue strategy for this release",
+      "body": "Which income streams are you activating? Bandcamp? Licensing targets?",
+      "category": "Revenue",
+      "priority": "High",
+      "phase": "Phase 1: Pre-Production"
+    },
+    {
+      "id": "plan-006",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "infra-014"
+      ],
+      "title": "Create licensing pitch list",
+      "body": "5-10 specific targets for THIS release",
+      "category": "Revenue",
+      "priority": "High",
+      "phase": "Phase 1: Pre-Production"
+    },
+    {
+      "id": "prod-001",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Record/produce all tracks",
+      "body": "Follow Piano Production Checklist or Electronic Production Checklist",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 2: Production"
+    },
+    {
+      "id": "prod-002",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "prod-001"
+      ],
+      "title": "Mix all tracks",
+      "body": "Reference your production workflow",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 2: Production"
+    },
+    {
+      "id": "prod-003",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "prod-002"
+      ],
+      "title": "Master all tracks",
+      "body": "Reference your production workflow",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 2: Production"
+    },
+    {
+      "id": "prod-004",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "prod-003"
+      ],
+      "title": "Loudness check",
+      "body": "LUFS targets: -14 to -16 LUFS. Use Youlean or similar.",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 2: Production"
+    },
+    {
+      "id": "prod-005",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "prod-003"
+      ],
+      "title": "Final listening test across devices",
+      "body": "Phone, laptop, headphones, monitors",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 2: Production"
+    },
+    {
+      "id": "prod-006",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "prod-005"
+      ],
+      "title": "Export final masters",
+      "body": "WAV, 24-bit. Naming convention: ArtistName_TrackTitle_Master_v1.wav",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 2: Production"
+    },
+    {
+      "id": "prod-007",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "prod-006"
+      ],
+      "title": "Create a backup of all project files",
+      "body": "External drive + cloud storage",
+      "category": "Production",
+      "priority": "High",
+      "phase": "Phase 2: Production"
+    },
+    {
+      "id": "visual-001",
+      "release_types": [
+        "Album",
+        "EP"
+      ],
+      "depends_on": [
+        "prod-006"
+      ],
+      "title": "Identify 2-3 key tracks to promote",
+      "body": "For albums - don't promote every track equally",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 3: Visual Assets"
+    },
+    {
+      "id": "visual-002",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Create or commission album artwork",
+      "body": "3000x3000px minimum, square format",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 3: Visual Assets"
+    },
+    {
+      "id": "visual-003",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "visual-002",
+        "prod-006"
+      ],
+      "title": "Create simple YouTube visualization",
+      "body": "Static artwork + waveform acceptable",
+      "category": "Production",
+      "priority": "High",
+      "phase": "Phase 3: Visual Assets"
+    },
+    {
+      "id": "visual-004",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "visual-002"
+      ],
+      "title": "Create Spotify Canvas (optional)",
+      "body": "15-second vertical loop, 1080x1920px",
+      "category": "Content",
+      "priority": "Low",
+      "phase": "Phase 3: Visual Assets"
+    },
+    {
+      "id": "visual-005",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Take or gather promo photos (optional)",
+      "body": "Only if naturally available (e.g., performance photos)",
+      "category": "Content",
+      "priority": "Low",
+      "phase": "Phase 3: Visual Assets"
+    },
+    {
+      "id": "visual-006",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "visual-002"
+      ],
+      "title": "Create social media announcement graphics",
+      "body": "Instagram square (1080x1080) + Story (1080x1920)",
+      "category": "Content",
+      "priority": "Medium",
+      "phase": "Phase 3: Visual Assets"
+    },
+    {
+      "id": "dist-001",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "prod-006",
+        "visual-002"
+      ],
+      "title": "Complete metadata in Amuse.io",
+      "body": "Track titles, album name, genre tags, release date",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 4: Distribution Setup"
+    },
+    {
+      "id": "dist-002",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Write album description with CC BY 4.0 statement",
+      "body": "Explicitly state Creative Commons licensing",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 4: Distribution Setup"
+    },
+    {
+      "id": "dist-003",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "dist-001"
+      ],
+      "title": "Generate ISRC codes",
+      "body": "Via Amuse. Automatic.",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 4: Distribution Setup"
+    },
+    {
+      "id": "dist-004",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "dist-001",
+        "prod-006"
+      ],
+      "title": "Upload masters to Amuse.io",
+      "body": "",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 4: Distribution Setup"
+    },
+    {
+      "id": "dist-005",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "dist-001",
+        "visual-002"
+      ],
+      "title": "Upload artwork to Amuse.io",
+      "body": "",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 4: Distribution Setup"
+    },
+    {
+      "id": "dist-006",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "dist-001"
+      ],
+      "title": "Set release date (4+ weeks out)",
+      "body": "Allows time for playlist pitching",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 4: Distribution Setup"
+    },
+    {
+      "id": "dist-007",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "dist-004",
+        "dist-005"
+      ],
+      "title": "Generate pre-save link via Amuse.io",
+      "body": "Use this in all pre-release promotion",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 4: Distribution Setup"
+    },
+    {
+      "id": "dist-008",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "dist-004"
+      ],
+      "title": "Verify distribution to all platforms",
+      "body": "Check Spotify, Apple Music, YouTube Music. 24-48 hours after upload.",
+      "category": "Production",
+      "priority": "Critical",
+      "phase": "Phase 4: Distribution Setup"
+    },
+    {
+      "id": "profile-001",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "infra-001"
+      ],
+      "title": "Update Spotify artist bio",
+      "body": "Mention healing/meditation focus, CC licensing",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 5: Profile Setup"
+    },
+    {
+      "id": "profile-002",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "infra-002"
+      ],
+      "title": "Update Apple Music artist bio",
+      "body": "",
+      "category": "Marketing",
+      "priority": "Medium",
+      "phase": "Phase 5: Profile Setup"
+    },
+    {
+      "id": "profile-003",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "infra-003"
+      ],
+      "title": "Update YouTube About section",
+      "body": "Include brylie.music link",
+      "category": "Marketing",
+      "priority": "Medium",
+      "phase": "Phase 5: Profile Setup"
+    },
+    {
+      "id": "profile-004",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "infra-001"
+      ],
+      "title": "Create/update artist playlists on Spotify",
+      "body": "Influences playlist, Complete Works playlist",
+      "category": "Marketing",
+      "priority": "Medium",
+      "phase": "Phase 5: Profile Setup"
+    },
+    {
+      "id": "profile-005",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "dist-006",
+        "dist-007"
+      ],
+      "title": "Update brylie.music homepage",
+      "body": "Feature upcoming release with pre-save link",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 5: Profile Setup"
+    },
+    {
+      "id": "profile-006",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "prod-006",
+        "infra-006"
+      ],
+      "title": "Upload to Bandcamp",
+      "body": "Set name-your-price with suggested €3-5",
+      "category": "Revenue",
+      "priority": "Critical",
+      "phase": "Phase 5: Profile Setup"
+    },
+    {
+      "id": "content-001",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Draft artist bio updates (if needed)",
+      "body": "Use Social Media Specialist skill",
+      "category": "Content",
+      "priority": "Medium",
+      "phase": "Phase 6: Content Creation"
+    },
+    {
+      "id": "content-002",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "visual-002"
+      ],
+      "title": "Generate 5-7 social media posts for release",
+      "body": "Batch create all posts",
+      "category": "Content",
+      "priority": "High",
+      "phase": "Phase 6: Content Creation"
+    },
+    {
+      "id": "content-003",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Write licensing pitch email templates",
+      "body": "Personalized but reusable framework",
+      "category": "Content",
+      "priority": "High",
+      "phase": "Phase 6: Content Creation"
+    },
+    {
+      "id": "content-004",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Create 3-5 short clips from recent livestream",
+      "body": "For Reels/Shorts - repurposing existing content",
+      "category": "Content",
+      "priority": "Medium",
+      "phase": "Phase 6: Content Creation"
+    },
+    {
+      "id": "content-005",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Prepare behind the scenes content",
+      "body": "Studio photos, process insights",
+      "category": "Content",
+      "priority": "Low",
+      "phase": "Phase 6: Content Creation"
+    },
+    {
+      "id": "content-006",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Draft playlist pitch copy (Spotify editorial)",
+      "body": "Submitted via Spotify for Artists",
+      "category": "Content",
+      "priority": "High",
+      "phase": "Phase 6: Content Creation"
+    },
+    {
+      "id": "campaign-001",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "dist-007",
+        "visual-006"
+      ],
+      "title": "Post announcement on Instagram with pre-save link",
+      "body": "",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-002",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "campaign-001"
+      ],
+      "title": "Post announcement on Facebook",
+      "body": "Cross-post or adapt from Instagram",
+      "category": "Marketing",
+      "priority": "Medium",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-003",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Post announcement on Bluesky",
+      "body": "",
+      "category": "Marketing",
+      "priority": "Low",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-004",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Update YouTube community tab",
+      "body": "",
+      "category": "Marketing",
+      "priority": "Medium",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-005",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Update brylie.music with release info",
+      "body": "May already be done in Phase 5",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-006",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Mention upcoming release at next eldercare performance",
+      "body": "Keep it organic, not promotional",
+      "category": "Marketing",
+      "priority": "Low",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-007",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "content-006"
+      ],
+      "title": "Pitch to Spotify Editorial Playlists",
+      "body": "At least 1 week before release. Via Spotify for Artists dashboard.",
+      "category": "Marketing",
+      "priority": "Critical",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-008",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Pitch to Apple Music Editorial",
+      "body": "Via Apple Music for Artists",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-009",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Research independent ambient/piano playlists",
+      "body": "10-15 targets. Use Licensing Outreach skill or Spotify search.",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-010",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "campaign-009"
+      ],
+      "title": "Pitch to independent playlists",
+      "body": "Personal messages, not templates",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-011",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Pitch to wellness/meditation playlists",
+      "body": "Your music is perfect for this niche",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-012",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "plan-006",
+        "content-003"
+      ],
+      "title": "Begin outreach to licensing targets",
+      "body": "Podcasters, YouTubers, wellness apps, game devs",
+      "category": "Revenue",
+      "priority": "High",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-013",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Research + pitch to Creative Commons-friendly curators",
+      "body": "Your licensing is an advantage here",
+      "category": "Revenue",
+      "priority": "Medium",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-014",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "content-005"
+      ],
+      "title": "Post behind-the-scenes content",
+      "body": "Studio photo, process insight",
+      "category": "Content",
+      "priority": "Medium",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-015",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "prod-006"
+      ],
+      "title": "Share snippet or preview track on Instagram/SoundCloud",
+      "body": "",
+      "category": "Content",
+      "priority": "Medium",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-016",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Optional: Instagram Story with countdown sticker",
+      "body": "",
+      "category": "Marketing",
+      "priority": "Low",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-017",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Optional: Livestream discussing upcoming release",
+      "body": "Announce briefly during the regular creative stream",
+      "category": "Content",
+      "priority": "Low",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-018",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "dist-007"
+      ],
+      "title": "Remind followers about pre-save (1 week before release)",
+      "body": "Instagram, Facebook, Bluesky",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "campaign-019",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Engage with 3-5 similar artists on Instagram",
+      "body": "Thoughtful comments, not self-promotion",
+      "category": "Relationships",
+      "priority": "Medium",
+      "phase": "Phase 7: Pre-Release Campaign"
+    },
+    {
+      "id": "release-001",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Post It's live! announcement on Instagram",
+      "body": "Include direct streaming links",
+      "category": "Marketing",
+      "priority": "Critical",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "release-002",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Post release announcement on Facebook",
+      "body": "",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "release-003",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Post release announcement on Bluesky",
+      "body": "",
+      "category": "Marketing",
+      "priority": "Low",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "release-004",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Update Spotify Artist Pick",
+      "body": "Feature new release in Spotify for Artists",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "release-005",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "visual-003"
+      ],
+      "title": "Upload full album video to YouTube",
+      "body": "Optimize title, description with CC BY 4.0 statement, tags",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "release-006",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Update brylie.music homepage",
+      "body": "Replace pre-save with streaming links",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "release-007",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "profile-006"
+      ],
+      "title": "Verify Bandcamp release is live",
+      "body": "",
+      "category": "Revenue",
+      "priority": "High",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "release-008",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Create artist playlist on Spotify featuring new release + influences",
+      "body": "Include Nils Frahm, Max Richter, your tracks",
+      "category": "Marketing",
+      "priority": "Medium",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "release-009",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Share thank you post celebrating release",
+      "body": "2-3 days after release",
+      "category": "Marketing",
+      "priority": "Medium",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "release-010",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Respond to ALL comments on release posts",
+      "body": "Personal responses, not 'thanks!'",
+      "category": "Relationships",
+      "priority": "High",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "release-011",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Optional: Instagram Story with Questions sticker",
+      "body": "'Ask me about the music'",
+      "category": "Relationships",
+      "priority": "Low",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "release-012",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Upload lyrics to Spotify (if applicable)",
+      "body": "",
+      "category": "Marketing",
+      "priority": "Low",
+      "phase": "Phase 8: Release Week"
+    },
+    {
+      "id": "post-001",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Continue pitching to independent playlists",
+      "body": "Now that track is live, some curators prefer this",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 9: Post-Release 1-4 Weeks"
+    },
+    {
+      "id": "post-002",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "campaign-012"
+      ],
+      "title": "Follow up with licensing targets who haven't responded",
+      "body": "Gentle follow-up, not pushy",
+      "category": "Revenue",
+      "priority": "High",
+      "phase": "Phase 9: Post-Release 1-4 Weeks"
+    },
+    {
+      "id": "post-003",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Thank playlist curators who added your music",
+      "body": "Personal messages, share their playlist on your Story",
+      "category": "Relationships",
+      "priority": "Critical",
+      "phase": "Phase 9: Post-Release 1-4 Weeks"
+    },
+    {
+      "id": "post-004",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Share any playlist additions on Instagram Story",
+      "body": "",
+      "category": "Marketing",
+      "priority": "Medium",
+      "phase": "Phase 9: Post-Release 1-4 Weeks"
+    },
+    {
+      "id": "post-005",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Check Spotify for Artists for engagement data",
+      "body": "Which tracks resonating? Where are listeners?",
+      "category": "Marketing",
+      "priority": "Medium",
+      "phase": "Phase 9: Post-Release 1-4 Weeks"
+    },
+    {
+      "id": "post-006",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Post about any milestones",
+      "body": "Playlist adds, stream count. Celebrate wins, even small ones.",
+      "category": "Marketing",
+      "priority": "Low",
+      "phase": "Phase 9: Post-Release 1-4 Weeks"
+    },
+    {
+      "id": "post-007",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Create making of or inspiration post",
+      "body": "Use production notes for content",
+      "category": "Content",
+      "priority": "Medium",
+      "phase": "Phase 9: Post-Release 1-4 Weeks"
+    },
+    {
+      "id": "post-008",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Share performance clips if you played tracks live",
+      "body": "Performed at eldercare or other venue",
+      "category": "Content",
+      "priority": "Low",
+      "phase": "Phase 9: Post-Release 1-4 Weeks"
+    },
+    {
+      "id": "post-009",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "content-004"
+      ],
+      "title": "Repurpose livestream clips into Reels/Shorts",
+      "body": "3-5 short clips from recent streams",
+      "category": "Content",
+      "priority": "Medium",
+      "phase": "Phase 9: Post-Release 1-4 Weeks"
+    },
+    {
+      "id": "post-010",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Optional: Livestream playing through album or discussing creation",
+      "body": "Creative time",
+      "category": "Content",
+      "priority": "Low",
+      "phase": "Phase 9: Post-Release 1-4 Weeks"
+    },
+    {
+      "id": "post-011",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Engage with other ambient/piano artists",
+      "body": "5-10 meaningful interactions. Thoughtful comments, not self-promotion.",
+      "category": "Relationships",
+      "priority": "Medium",
+      "phase": "Phase 9: Post-Release 1-4 Weeks"
+    },
+    {
+      "id": "post-012",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Continue responding to any new comments/messages",
+      "body": "",
+      "category": "Relationships",
+      "priority": "High",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-013",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Share listener feedback or testimonials",
+      "body": "If received",
+      "category": "Marketing",
+      "priority": "Low",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-014",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "post-002"
+      ],
+      "title": "Follow up with licensing targets (second follow-up)",
+      "body": "Only if they showed interest initially",
+      "category": "Revenue",
+      "priority": "Medium",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-015",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Pitch to additional niche playlists or opportunities",
+      "body": "",
+      "category": "Revenue",
+      "priority": "Medium",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-016",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Request Release Performance Report from Metrics Analyst",
+      "body": "Let Metrics Analyst skill compile the data",
+      "category": "Infrastructure",
+      "priority": "Critical",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-017",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Review streaming analytics",
+      "body": "Spotify, Apple, YouTube. Which tracks resonated? Geographic distribution?",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-018",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Document successful playlist additions",
+      "body": "Track which curators added you - nurture these relationships",
+      "category": "Relationships",
+      "priority": "High",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-019",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Document successful licensing placements (if any)",
+      "body": "",
+      "category": "Revenue",
+      "priority": "High",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-020",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Analyze which social posts got most engagement",
+      "body": "Do more of what worked",
+      "category": "Marketing",
+      "priority": "High",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-021",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Calculate total revenue from release",
+      "body": "Bandcamp sales + streaming estimates + licensing",
+      "category": "Revenue",
+      "priority": "High",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-022",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Document what worked vs what didn't",
+      "body": "This learning informs next release",
+      "category": "Infrastructure",
+      "priority": "Critical",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-023",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "post-022"
+      ],
+      "title": "Identify adjustments for next release",
+      "body": "What to do more of? Less of? Differently?",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-024",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Update master licensing target list",
+      "body": "Add successful contacts, remove non-responsive",
+      "category": "Infrastructure",
+      "priority": "Medium",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "post-025",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Celebrate progress and wins",
+      "body": "Reflect on growth, not just metrics",
+      "category": "Relationships",
+      "priority": "Critical",
+      "phase": "Phase 10: Post-Release 5-8 Weeks"
+    },
+    {
+      "id": "maint-001",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Review overall metrics (Monthly)",
+      "body": "Metrics Analyst monthly report. First week of each month.",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-002",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Engage with ambient music communities",
+      "body": "Reddit, etc. Thoughtful participation, not promotion.",
+      "category": "Relationships",
+      "priority": "Medium",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-003",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Maintain relationships with playlist curators",
+      "body": "Comment on their playlists, share updates",
+      "category": "Relationships",
+      "priority": "High",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-004",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Update website if needed",
+      "body": "",
+      "category": "Infrastructure",
+      "priority": "Low",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-005",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Comprehensive metrics review (Quarterly)",
+      "body": "What's working? Adjust strategy.",
+      "category": "Infrastructure",
+      "priority": "Critical",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-006",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Update master licensing target list (Quarterly)",
+      "body": "Research new opportunities",
+      "category": "Revenue",
+      "priority": "High",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-007",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Review and update artist bios across platforms",
+      "body": "",
+      "category": "Marketing",
+      "priority": "Medium",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-008",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Review content pillar strategy",
+      "body": "Still aligned with the mission?",
+      "category": "Content",
+      "priority": "Medium",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-009",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Reach out to 1-2 artists about potential collaboration",
+      "body": "",
+      "category": "Relationships",
+      "priority": "Medium",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-010",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Update GitHub Projects master roadmap",
+      "body": "Based on learnings from recent releases",
+      "category": "Infrastructure",
+      "priority": "Medium",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-011",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Research and apply to Finnish grants",
+      "body": "Taike, KONE. Application cycles vary.",
+      "category": "Revenue",
+      "priority": "Medium",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-012",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [],
+      "title": "Comprehensive year-in-review",
+      "body": "All metrics, revenue, growth, lessons learned",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-013",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "maint-012"
+      ],
+      "title": "Strategic planning for next year",
+      "body": "Release schedule, goals, new opportunities",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Ongoing Maintenance"
+    },
+    {
+      "id": "maint-014",
+      "release_types": [
+        "All"
+      ],
+      "depends_on": [
+        "maint-013"
+      ],
+      "title": "Update Goals & Success Metrics document",
+      "body": "Based on actual performance vs goals",
+      "category": "Infrastructure",
+      "priority": "High",
+      "phase": "Ongoing Maintenance"
+    }
+  ]
 }

@@ -8,22 +8,22 @@ This project provides a CLI to set up music release projects (Albums, EPs, Singl
 
 **Key Technologies:**
 
-* **Language:** Python 3.14
-* **Package/Environment Manager:** `uv`
-* **CLI Framework:** `click`
-* **Data Modeling:** `pydantic`
-* **Testing:** `pytest`
-* **External Dependencies:** `gh` (GitHub CLI) for API interactions.
+- **Language:** Python 3.14
+- **Package/Environment Manager:** `uv`
+- **CLI Framework:** `click`
+- **Data Modeling:** `pydantic`
+- **Testing:** `pytest`
+- **External Dependencies:** `gh` (GitHub CLI) for API interactions.
 
 ## Architecture
 
 The codebase is organized into modular components:
 
-* **`src/main.py`**: Entry point. Contains CLI commands like `create-project` (automates project setup) and `wizard`.
-* **`src/models.py`**: Pydantic models for `Task`, `ReleaseConfig`, `ProjectMetadata`, and Enums for GitHub fields (`Category`, `Priority`, `Phase`).
-* **`src/tasks.py`**: Logic for loading and filtering tasks from the database.
-* **`src/github.py`**: Wrapper around `gh` CLI to create projects, fields, and items, and update custom fields.
-* **`data/tasks.json`**: JSON database containing the standard library of music production tasks.
+- **`src/main.py`**: Entry point. Contains CLI commands like `create-project` (automates project setup) and `wizard`.
+- **`src/models.py`**: Pydantic models for `Task`, `ReleaseConfig`, `ProjectMetadata`, and Enums for GitHub fields (`Category`, `Priority`, `Phase`).
+- **`src/tasks.py`**: Logic for loading and filtering tasks from the database.
+- **`src/github.py`**: Wrapper around `gh` CLI to create projects, fields, and items, and update custom fields.
+- **`data/tasks.json`**: JSON database containing the standard library of music production tasks.
 
 ## Building and Running
 
@@ -31,9 +31,9 @@ The project uses `uv` for command execution and environment management.
 
 ### Prerequisites
 
-* Python 3.14+
-* `uv`
-* `gh` (GitHub CLI) - Authenticated and installed.
+- Python 3.14+
+- `uv`
+- `gh` (GitHub CLI) - Authenticated and installed.
 
 ### Commands
 
@@ -60,10 +60,10 @@ uv run pytest
 
 ## Development Conventions
 
-* **Dependency Management:** Managed via `pyproject.toml` and `uv.lock`.
-* **Code Structure:**
-  * `models.py`: Data definitions and validation.
-  * `tasks.py`: Task data handling.
-  * `github.py`: API interactions.
-* **Testing:** Tests in `tests/` using `pytest`.
-* **Type Safety:** Use Pydantic models for data interchange.
+- **Dependency Management:** Managed via `pyproject.toml` and `uv.lock`.
+- **Code Structure:**
+  - `models.py`: Data definitions and validation.
+  - `tasks.py`: Task data handling.
+  - `github.py`: API interactions.
+- **Testing:** Tests in `tests/` using `pytest`.
+- **Type Safety:** Use Pydantic models for data interchange.
