@@ -4,7 +4,7 @@ A Python CLI tool designed to streamline the management of music production proj
 
 ## Project Overview
 
-This project aims to provide a wizard-style interface to set up music release projects (Albums, EPs, Singles, Videos). It utilizes predefined task templates and maps them to GitHub Project fields such as Category, Priority, and Phase.
+This project provides a CLI to set up music release projects (Albums, EPs, Singles, Videos). It utilizes predefined task templates and maps them to GitHub Project fields such as Category, Priority, and Phase.
 
 **Key Technologies:**
 
@@ -19,15 +19,11 @@ This project aims to provide a wizard-style interface to set up music release pr
 
 The codebase is organized into modular components:
 
-* **`src/main.py`**: The main entry point for the CLI application. Currently contains a basic `wizard` command.
-* **`src/models.py`**: Contains comprehensive Pydantic models defining:
-  * `Task`: The structure of a task, including CLI-specific metadata and GitHub Project fields.
-  * `ReleaseConfig`: User configuration for a specific release.
-  * `GitHubProjectFields`: Definitions for custom fields in GitHub Projects (Category, Priority, Phase).
-  * `ReleaseType`, `Category`, `Priority`, `Phase`: Enums for standardization.
-* **`src/tasks.py`**: Intended for task filtering and management logic (currently a stub).
-* **`src/github.py`**: Intended for interactions with the GitHub API via the `gh` CLI (currently a stub).
-* **`data/tasks.json`**: JSON file intended to store the database of task templates (currently empty).
+* **`src/main.py`**: Entry point. Contains CLI commands like `create-project` (automates project setup) and `wizard`.
+* **`src/models.py`**: Pydantic models for `Task`, `ReleaseConfig`, `ProjectMetadata`, and Enums for GitHub fields (`Category`, `Priority`, `Phase`).
+* **`src/tasks.py`**: Logic for loading and filtering tasks from the database.
+* **`src/github.py`**: Wrapper around `gh` CLI to create projects, fields, and items, and update custom fields.
+* **`data/tasks.json`**: JSON database containing the standard library of music production tasks.
 
 ## Building and Running
 
@@ -37,12 +33,19 @@ The project uses `uv` for command execution and environment management.
 
 * Python 3.14+
 * `uv`
-* `gh` (GitHub CLI) - Required for future GitHub integration features.
+* `gh` (GitHub CLI) - Authenticated and installed.
 
 ### Commands
 
-**Run the CLI:**
-To run the main CLI wizard:
+**Create a Release Project:**
+To create a new GitHub Project with automated tasks:
+
+```bash
+uv run python src/main.py create-project
+```
+
+**Run the Wizard:**
+Basic wizard command:
 
 ```bash
 uv run python src/main.py wizard
@@ -57,10 +60,10 @@ uv run pytest
 
 ## Development Conventions
 
-* **Dependency Management:** All dependencies are managed via `pyproject.toml` and `uv.lock`. Use `uv` commands to add/remove dependencies.
-* **Code Structure:** Keep models, logic, and interface separated.
-  * `models.py` for data structures.
-  * `tasks.py` for business logic.
-  * `github.py` for external API calls.
-* **Testing:** Write tests in the `tests/` directory using `pytest`.
-* **Type Safety:** Leverage Pydantic for robust data validation and type checking.
+* **Dependency Management:** Managed via `pyproject.toml` and `uv.lock`.
+* **Code Structure:**
+  * `models.py`: Data definitions and validation.
+  * `tasks.py`: Task data handling.
+  * `github.py`: API interactions.
+* **Testing:** Tests in `tests/` using `pytest`.
+* **Type Safety:** Use Pydantic models for data interchange.
