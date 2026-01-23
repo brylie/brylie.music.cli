@@ -8,3 +8,11 @@ repos:
       - id: ruff-format
         name: ruff format
         args: ["."]
+  - repo: local
+    hooks:
+      - id: dprint
+        name: dprint fmt
+        entry: mise exec -- dprint fmt --allow-no-files
+        language: system
+        types_or: [json, markdown, toml, yaml]
+        pass_filenames: true
