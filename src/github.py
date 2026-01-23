@@ -279,11 +279,17 @@ def create_project(
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         data = json.loads(result.stdout)
 
+        # Validate required fields are present
+        required = ["id", "number", "url", "title"]
+        missing = [k for k in required if k not in data]
+        if missing:
+            raise ValueError(f"Missing required fields in gh output: {missing}")
+
         return ProjectMetadata(
-            id=data.get("id"),
-            project_number=data.get("number"),
-            project_url=data.get("url"),
-            title=data.get("title"),
+            id=data["id"],
+            project_number=data["number"],
+            project_url=data["url"],
+            title=data["title"],
             owner=owner,
             field_ids={},
         )
