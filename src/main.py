@@ -50,8 +50,18 @@ def create_project_cmd(dry_run):
 
             click.echo("Loading and creating tasks...")
             task_list = load_tasks(Path("data/tasks.json"))
-            add_tasks_to_project(project, task_list.tasks, dry_run=False)
-            click.echo("Tasks created successfully.")
+            success, failed_tasks = add_tasks_to_project(
+                project, task_list.tasks, dry_run=False
+            )
+            if success:
+                click.echo("Tasks created successfully.")
+            else:
+                click.echo(
+                    f"Tasks created with {len(failed_tasks)} failure(s):", err=True
+                )
+                for title, error in failed_tasks:
+                    click.echo(f"  - {title}: {error}", err=True)
+                raise click.ClickException("Some tasks failed to create.")
 
     except Exception as e:
         click.echo(f"Failed to create project: {e}", err=True)
