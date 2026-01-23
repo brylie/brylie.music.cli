@@ -12,7 +12,7 @@ All commands should be prefixed with `uv` if you have not activated the Python e
 Authenticate with GitHub using a personal access token:
 
 ```sh
-gh auth refresh -s project,read:project
+gh auth refresh -s project
 ```
 
 ### Run the CLI wizard
