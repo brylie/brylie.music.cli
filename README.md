@@ -8,7 +8,7 @@ All commands should be prefixed with `uv` if you have not activated the Python e
 
 ### Auth with GitHub
 
-Authenticate with GitHub using a personal access token:
+Add the required GitHub Projects scope to your authentication:
 
 ```sh
 gh auth refresh -s project
