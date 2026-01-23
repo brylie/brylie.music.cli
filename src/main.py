@@ -1,12 +1,10 @@
-import sys
-import os
+from pathlib import Path
 
 import click
-from pathlib import Path
-from github import create_project, create_project_fields, add_tasks_to_project
-from tasks import load_tasks
 
-from models import ProjectMetadata  # Import ProjectMetadata
+from github import add_tasks_to_project, create_project, create_project_fields
+from models import ProjectMetadata
+from tasks import load_tasks
 
 
 @click.group()
