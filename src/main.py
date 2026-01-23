@@ -18,6 +18,7 @@ def create_project_cmd(dry_run):
     """Create a new GitHub project."""
     title = click.prompt("Release title")
 
+    tasks_path = Path(__file__).resolve().parent.parent / "data" / "tasks.json"
     try:
         project = create_project(title=title, dry_run=dry_run)
         if dry_run:
@@ -35,7 +36,7 @@ def create_project_cmd(dry_run):
 
             # Simulate task loading
             try:
-                task_list = load_tasks(Path("data/tasks.json"))
+                task_list = load_tasks(tasks_path)
                 add_tasks_to_project(dummy_project, task_list.tasks, dry_run=True)
             except Exception as e:
                 click.echo(f"Warning: Could not load tasks for dry run: {e}")
@@ -49,7 +50,7 @@ def create_project_cmd(dry_run):
             click.echo("Custom fields created successfully.")
 
             click.echo("Loading and creating tasks...")
-            task_list = load_tasks(Path("data/tasks.json"))
+            task_list = load_tasks(tasks_path)
             success, failed_tasks = add_tasks_to_project(
                 project, task_list.tasks, dry_run=False
             )
