@@ -144,6 +144,7 @@ class GitHubProjectFields(BaseModel):
 
 class ProjectMetadata(BaseModel):
     """GitHub Project metadata after creation"""
+    id: str = Field(..., description="Project Node ID")
     project_number: int
     project_url: str
     title: str
